@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karen Castillo — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">KC</span>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Digital Portfolio</p>
+      <h1 class="hero-name">Karen Castillo</h1>
+      <p class="hero-tagline">Business &amp; Technology Professional</p>
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+    </div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">A curated collection of work highlighting applied skills across academic and professional settings.</p>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Cards are rendered by script.js from the projects array -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">Feel free to reach out about opportunities, collaborations, or questions.</p>
+      <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Karen Castillo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
