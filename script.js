@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Panetry",
     type: "Solo",
-    startDate: "May 2026",      
+    startDate: "May - 2026",      
     endDate:   "Present",
     description:
       "Designed and built Panetry, a full-stack SaaS dashboard that centralizes and automates operations for small and cottage bakeries. " +
