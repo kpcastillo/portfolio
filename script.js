@@ -1,24 +1,33 @@
-// ── PROJECT DATA ──────────────────────────────────────────────
-// Edit this array to add, remove, or update your projects.
-// Fields:
-//   title       — Project name
-//   type        — "Group" | "Solo"
-//   startDate   — e.g. "Jan 2024"
-//   endDate     — e.g. "Apr 2024"  (use "Present" if ongoing)
-//   description — Full description; use **text** for bold highlights
-//   skills      — Exactly 5 skills (shown as tags)
-//   media       — { label: "View Project", url: "https://..." }
-//                 For a local file use url: "files/myproject.pdf"
-// ──────────────────────────────────────────────────────────────
-
 const projects = [
 
   // ── 1 ─────────────────────────────────────────────────────────
   {
+    title: "Panetry",
+    type: "Solo",
+    startDate: "May 2026",      
+    endDate:   "Present",
+    description:
+      "Designed and built Panetry, a full-stack SaaS dashboard that centralizes and automates operations for small and cottage bakeries. " +
+      "The platform includes five core modules: **Products** (catalog management), **Inventory** (stock tracking), " +
+      "**Orders** (order lifecycle management), **Analytics** (sales and performance insights), and a **Profile** page. " +
+      "Integrated directly with a customer-facing storefront where buyers can browse the bakery, place orders, and complete payments — " +
+      "all connected to the same Supabase backend for real-time data sync.",
+    skills: [
+      "Next.js / React",
+      "Supabase (Database & Auth)",
+      "Full-Stack Web Development",
+      "Dashboard & Analytics UI",
+      "E-Commerce Integration",
+    ],
+    media: { label: "View App", url: "https://panetry.netlify.app/" },
+  },
+
+  // ── 2 ─────────────────────────────────────────────────────────
+  {
     title: "Handcrafted Haven",
     type: "Group",
-    startDate: "Jan 2026",      // ← update if needed
-    endDate:   "Apr 2026",      // ← update if needed
+    startDate: "Jan 2026",      
+    endDate:   "Apr 2026",      
     description:
       "Built a full-stack e-commerce marketplace for handcrafted goods as part of a collaborative team (Team 17). " +
       "**My contribution** spanned product catalog architecture, integrating the user authentication flow, and leading " +
@@ -38,8 +47,8 @@ const projects = [
   {
     title: "Healthy Meals API",
     type: "Solo",
-    startDate: "Sep 2025",      // ← update if needed
-    endDate:   "Dec 2025",      // ← update if needed
+    startDate: "Sep 2025",
+    endDate:   "Dec 2025",
     description:
       "Designed and deployed a RESTful API that serves healthy meal data, secured with GitHub OAuth 2.0. " +
       "Built authentication middleware to protect profile endpoints, structured route handlers with Express.js, " +
@@ -58,8 +67,8 @@ const projects = [
   {
     title: "Service Sales",
     type: "Solo",
-    startDate: "Jan 2025",      // ← update if needed
-    endDate:   "Apr 2025",      // ← update if needed
+    startDate: "Jan 2025",
+    endDate:   "Apr 2025",
     description:
       "Designed and developed a service quotation web platform for home improvement and landscaping services — " +
       "including masonry walls, pavers & turf, concrete, stucco, and repairs. " +
@@ -80,8 +89,8 @@ const projects = [
   {
     title: "Bakery API",
     type: "Solo",
-    startDate: "Jan 2025",      // ← update if needed
-    endDate:   "Apr 2025",      // ← update if needed
+    startDate: "Jan 2025",
+    endDate:   "Apr 2025",
     description:
       "Developed a RESTful API for a bakery management system, exposing endpoints for products, categories, and users. " +
       "Implemented full CRUD operations with proper HTTP status codes, request validation, and a clean route structure " +
@@ -100,8 +109,8 @@ const projects = [
   {
     title: "Sleep Outside",
     type: "Group",
-    startDate: "Sep 2024",      // ← update if needed
-    endDate:   "Dec 2024",      // ← update if needed
+    startDate: "Sep 2024",
+    endDate:   "Dec 2024",
     description:
       "Collaborated with Group 13 to build an outdoor gear e-commerce website using vanilla HTML, CSS, and JavaScript. " +
       "**My contribution** included building the product listing templates, writing the JavaScript logic for dynamic " +
@@ -120,8 +129,8 @@ const projects = [
   {
     title: "CSE Motors — CSE 340",
     type: "Solo",
-    startDate: "Jan 2025",      // ← update if needed
-    endDate:   "Apr 2025",      // ← update if needed
+    startDate: "Jan 2025",
+    endDate:   "Apr 2025",
     description:
       "Built a full-stack automotive e-commerce web application from scratch as part of CSE 340. " +
       "The site features a browsable vehicle inventory organized by category (Electric, Sport, SUV, Truck, etc.), " +
@@ -141,8 +150,8 @@ const projects = [
   {
     title: "Contacts API — CSE 341",
     type: "Solo",
-    startDate: "Sep 2025",      // ← update if needed
-    endDate:   "Dec 2025",      // ← update if needed
+    startDate: "Sep 2025",
+    endDate:   "Dec 2025",
     description:
       "Designed and deployed a Node.js/Express REST API backed by MongoDB for managing contact records. " +
       "The API supports full CRUD operations on contact documents — including fields for name, email, " +
